@@ -1,0 +1,17 @@
+.c-carousel__slide img{
+    width: 500px;
+    height: 300px;
+    
+}
+.c-carousel__slides js-carousel--simple{
+    padding: 0;
+}
+.c-carousel c-carousel--simple{
+    width: auto;
+    max-height: 400px;
+}
+@media screen and (max-width:600px){
+    .c-carousel__slide img{
+        height: 180px;
+    }
+}
